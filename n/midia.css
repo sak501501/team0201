@@ -1,0 +1,14 @@
+@media media-type and (media-feature-rule) {
+    /* CSS rules go here */
+  }
+
+
+@media screen and (max-width: 1400px) {
+    body {
+        color: blue;
+        width: 80%;
+        margin: 2em auto;
+    
+    }
+}
+
