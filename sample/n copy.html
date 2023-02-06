@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
-<link rel="stylesheet" href="n.css">
+<link rel="stylesheet" href="/sample/n copy.css">
 <link rel="stylesheet" href="/n/n.js">
 <style>
         html, body{
@@ -13,39 +13,13 @@
             height: 100%;
             padding: 0;
         }
-		.box{background: green;}
 </style>
-<script>
-	$(function(){
-		//resize: 브라우저 창 너비의 변경된 값을 width 변수에 저장
-		$(window).resize(function () {
-			var width = $(window).width();
-			if (width>=992) {
-			
-				$(".li_1").css("width","50%");
-				$(".product1").css("width","50%");
-				$(".product2").css("width","50%");
-			} else if (width>=768 && width<992) {
-				
-				$(".li_1").css("width","100%");
-				$(".product1").css("width","50%");
-				$(".product2").css("width","50%");
-			} else if (width<768) {
-			
-				$(".li_1").css("width","100%");
-				$(".product1").css("width","100%");
-				$(".product2").css("width","100%");
-			}
-		});
 
-		$(window).trigger("resize"); //강제로 호출하는 함수
-	});
-</script>
 </head>
 <body>
 <main>
     <h3 style="font-size: 26px; font-weight: 900; text-align: center;">EARING</h3>
-
+ 
     <div class="group">
 	    <div class="li_1">
 		<h3 style="font-size: 23px; font-weight: 900;">HOT</h3>
