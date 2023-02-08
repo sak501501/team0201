@@ -24,18 +24,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1400px;
+    height: 588px;
+    width: 588px;
     float: left;
 
+
 }
 
-.txt{
 
-background-color: yellow;    
-height: 588px;
-width: 588px;
-position: relative;
-}
 
 
 
@@ -134,7 +130,7 @@ position: relative;
     width: 1439px;
     /* height: 546px;  */
     text-align: right;
-    margin: 0 auto;  
+    /* margin: 0 auto;   */
 
 
 
@@ -206,6 +202,10 @@ h3{
 .group{
     /* padding-top: 100px; */
     padding-bottom: 200px;
+    padding-top: 200px;
 
 }
 
+.s{
+    padding-left: 200px;
+}
