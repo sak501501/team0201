@@ -1,27 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
     <style>
-        .parent{
-            border: 5px solid red;
-            width: 600px;
-            overflow: hidden;
-        }
-        .child{
-            background-color: gold;
-            width: 200px;
-            height: 300px;
-            margin: auto;
-        }
-        </style>
-</head>
-<body>
-    <div class="parent">
-        <div class="child"></div>
-    </div>
-</body>
+      p {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #bcbcbc;
+      }
+    </style>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $( document ).ready( function() {
+        var jbWidth = $( 'p' ).width();
+        $( 'p' ).append( jbWidth );
+        $( window ).resize( function() {
+          jbWidth = $( 'p' ).width();
+          $( 'p' ).empty().append( jbWidth );
+        } );
+      } );
+    </script>
+  </head>
+  <body>
+    <p></p>
+  </body>
 </html>
