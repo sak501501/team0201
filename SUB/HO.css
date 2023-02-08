@@ -2,14 +2,39 @@ body{
     padding: 0;
     margin: 0;
 
+
 }
+
+
+
+.exp{
+
+  background-color: blueviolet;
+    overflow: hidden;
+    height: 588px;
+    width: 588px;
+    height: auto;
+
+
+
+}
+
 
 .wapper{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1400px;
+    float: left;
 
+}
+
+.txt{
+
+background-color: yellow;    
+height: 588px;
+width: 588px;
+position: relative;
 }
 
 
@@ -18,19 +43,8 @@ body{
     height: 588px;
     width: 588px;
     position: relative;
-    /* left: 240px; */
+  
 }
-
-.exp{
-    height: 588px;
-    width: 588px;
-    background-color: antiquewhite;
-    position: relative;
-    /* left: 970px; */
-    float: left;
-}
-
-
 
 
 .new{
@@ -119,8 +133,10 @@ body{
 .li_1{
     width: 1439px;
     /* height: 546px;  */
-    text-align: center;
-    margin: 0 auto;   
+    text-align: right;
+    margin: 0 auto;  
+
+
 
 }
 .box-wrap{
@@ -190,5 +206,6 @@ h3{
 .group{
     /* padding-top: 100px; */
     padding-bottom: 200px;
-   
+
 }
+
